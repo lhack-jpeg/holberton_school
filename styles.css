@@ -19,7 +19,7 @@ h4 {
 }
 
 body {
-    background: #ccc;
+    background: white;
     display: flex;
     flex-direction: column;
     letter-spacing: 0.05rem;
@@ -66,8 +66,48 @@ a {
     color: orange;
 }
 
+.navbar__item a {
+    padding-inline: 0.2rem;
+    padding-bottom: 0.4rem;
+    color: black;
+}
+
+.navbar__item a:hover {
+    border-bottom: 1px solid grey;
+}
+
+.index__project {
+    display: flex;
+    flex-direction: column;
+}
+
 .index__projects a {
     color: white;
+}
+
+.index__project img {
+    margin-left: auto;
+    margin-right: auto;
+    transition: scale 0.5s ease-in-out;
+}
+
+.index__project img:hover {
+    scale: 1.1;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+}
+
+.github a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.github img {
+    max-width: 350px;
+    max-height: 350px;
 }
 
 .carousel {
