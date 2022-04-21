@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100vh;
+    min-height: 100vh;
+}
+
 body,
 header,
 h1,
@@ -13,6 +18,64 @@ h4 {
     font-family: 'Plus Jakarta Sans', Arial, Helvetica, sans-serif;
 }
 
+body {
+    background: #ccc;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.05rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    color: white;
+    overflow: hidden;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+    background: linear-gradient(137deg, #1b1b1b, #ccc);
+}
+
+aside {
+    background: linear-gradient(223deg, #ccc, #1b1b1b);
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer {
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #cc6767;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+}
+
+.index__projects a {
+    color: white;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .slider {
     max-width: 200px;
     text-align: center;
@@ -77,4 +140,8 @@ h4 {
 .slides img {
     height: 200px;
     width: 200px;
+}
+
+.carousel__links {
+    padding-top: 1rem;
 }
