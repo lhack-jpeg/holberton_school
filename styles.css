@@ -36,11 +36,11 @@ main {
 article {
     flex: 2;
     overflow-y: auto;
-    background: linear-gradient(137deg, #1b1b1b, #ccc);
+    background: linear-gradient(137deg, #1b1b1bbb, #ccc);
 }
 
 aside {
-    background: linear-gradient(223deg, #ccc, #1b1b1b);
+    background: linear-gradient(223deg, #ccc, #1b1b1bbb);
     flex: 1;
     overflow-y: auto;
 }
@@ -184,4 +184,11 @@ a {
 
 .carousel__links {
     padding-top: 1rem;
+}
+
+.tweets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
