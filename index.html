@@ -65,19 +65,10 @@
                         <p>
                             This is a hobby project created to help with the
                             quality of life for staff and customers of Reece.
-                            The web application utilises NodeJS and Express as
-                            the backbone of the app. To seed the data of the
-                            application, I built my own web scraper using Scrapy
-                            and Zyte. The database is hosted on Mongo Atlas as a
-                            clone of my local database. To style the web
-                            application, I used SASS pre-processing. The website
-                            uses a form input to filter through the database and
-                            return the results of the form for what toilet will
-                            suit the current layout.
                         </p>
                         <img
                             src="https://i.ibb.co/5kwp68F/suite-Selector.jpg"
-                            alt="suite-Selector"
+                            alt="suite-Selector screen shot"
                         />
                     </div>
                     <div class="index__project">
@@ -86,12 +77,11 @@
                             This is a code project to demonstrate using Express,
                             Node and MySQL. It adds a user email to the project
                             and displays how many users are currently stored in
-                            the database. It uses Bootstrap5 to create the
-                            styling of the webpage.
+                            the database.
                         </p>
                         <img
                             src="https://i.ibb.co/mNVr4b2/joinus.jpg"
-                            alt="joinus"
+                            alt="join us screen shot"
                         />
                     </div>
                 </div>
@@ -116,7 +106,32 @@
                 </div>
             </article>
             <aside>
-                <p>Placeholder to add comment thread</p>
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+                    (function () {
+                        // DON'T EDIT BELOW THIS LINE
+                        var d = document,
+                            s = d.createElement('script');
+                        s.src = 'https://54-167-78-95.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript
+                    >Please enable JavaScript to view the
+                    <a href="https://disqus.com/?ref_noscript"
+                        >comments powered by Disqus.</a
+                    ></noscript
+                >
             </aside>
         </main>
         <footer>

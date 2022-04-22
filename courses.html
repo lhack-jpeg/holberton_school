@@ -16,6 +16,7 @@
         <header>
             <nav class="navbar">
                 <ul class="navbar__items">
+                    <li class="logo">&#410; &#405;</li>
                     <li class="navbar__item"><a href="index.html">Home</a></li>
                     <li class="navbar__item">
                         <a href="tweets.html">Tweets</a>
@@ -44,6 +45,15 @@
                         is a great course that also teaches you Node JS, Express
                         and MongoDB.
                     </p>
+                    <figure>
+                        <img
+                            class="small"
+                            id="smart_thumbnail"
+                            src="https://yt3.ggpht.com/ytc/AKedOLR4BKPIxSr1RjRYn3rujLiX8U3EPhlXXGsx9cYt=s900-c-k-c0x00ffffff-no-rj"
+                            alt="Photo of Colt Steele"
+                        />
+                        <figcaption>Colt Steele</figcaption>
+                    </figure>
                     <p>
                         Be sure to check out the course
                         <a
@@ -92,7 +102,34 @@
                     </p>
                 </div>
             </article>
-            <aside><p>Placeholder to add comment thread</p></aside>
+            <aside>
+                <div id="disqus_thread"></div>
+                <script>
+                    /**
+                     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+                    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+                    (function () {
+                        // DON'T EDIT BELOW THIS LINE
+                        var d = document,
+                            s = d.createElement('script');
+                        s.src = 'https://54-167-78-95.disqus.com/embed.js';
+                        s.setAttribute('data-timestamp', +new Date());
+                        (d.head || d.body).appendChild(s);
+                    })();
+                </script>
+                <noscript
+                    >Please enable JavaScript to view the
+                    <a href="https://disqus.com/?ref_noscript"
+                        >comments powered by Disqus.</a
+                    ></noscript
+                >
+            </aside>
         </main>
         <footer>
             <p>
