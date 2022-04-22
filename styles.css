@@ -204,3 +204,13 @@ a {
 .fancy_link:hover {
     background-size: 100% 3px;
 }
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.right div {
+    padding-top: 0.5rem;
+}
